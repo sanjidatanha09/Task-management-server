@@ -110,6 +110,7 @@ async function run() {
                     description: updatedProduct.description,
                     deadline: updatedProduct.deadline,
                     priority: updatedProduct.priority,
+                    typeoff: updatedProduct.typeoff,
                     email: updatedProduct.email,
                     
                 }
