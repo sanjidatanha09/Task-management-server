@@ -39,10 +39,12 @@ async function run() {
 
 
         //user related api
+        
         app.get('/user', async (req, res) => {
 
             const result = await userCollection.find().toArray();
             res.send(result);
+
         })
 
         app.post('/users', async (req, res) => {
